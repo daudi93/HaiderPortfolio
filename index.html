@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>.NET Developer Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <!-- Js File Ref -->
+  <script type="module" src="index.js" defer></script>
+      <!-- JavaScript libraries -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <nav class="navbar">
+        <!-- <a href="#" class="logo">.NET_DEV</a> -->
+        <h1>.NET Backend Developer</h1>
+        <div class="nav-links">
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+        <h1 class="hero-title">Muhammad Arshad Ali Haider</h1>
+          <h2 class="hero-subtitle">.NET Backend Developer | Azure | ASP.NET Core</h2>
+          <p>Developing scalable backend systems with modern .NET and Azure. Proven experience building production applications using .NET Core 8, microservices, and cloud-native patterns. Focused on writing clean, testable code and implementing Azure solutions under Agile methodologies.</p><br>
+          <a href="#projects" class="btn btn-primary">View My Projects</a>
+        </div>
+        <div class="hero-image">
+          <img src="./assets/media/haider.jpeg" alt="Developer Portrait">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-container">
+        <!-- Languages & Frameworks -->
+        <div class="skill-category">
+          <h3>Languages & Frameworks</h3>
+          <ul class="skill-list">
+            <li class="skill-item">
+              <i class="fas fa-code skill-icon"></i>
+              C#, ASP.NET, MVC
+            </li>
+            <li class="skill-item">
+              <i class="fas fa-laptop-code skill-icon"></i>
+              ASP.NET Core, Blazor
+            </li>
+            <li class="skill-item">
+              <i class="fas fa-file-code skill-icon"></i>
+              Razor Pages
+            </li>
+          </ul>
+        </div>
+
+        <!-- Databases & ORMs -->
+        <div class="skill-category">
+          <h3>Databases & ORMs</h3>
+          <ul class="skill-list">
+            <li class="skill-item">
+              <i class="fas fa-database skill-icon"></i>
+              SQL Server, Postgres
+            </li>
+            <li class="skill-item">
+              <i class="fas fa-layer-group skill-icon"></i>
+              Entity Framework Core
+            </li>
+            <li class="skill-item">
+              <i class="fas fa-bolt skill-icon"></i>
+              Dapper, ADO.NET, LINQ
+            </li>
+          </ul>
+        </div>
+
+        <!-- Project Management -->
+        <div class="skill-category">
+          <h3>Project Management</h3>
+          <ul class="skill-list">
+            <li class="skill-item">
+              <i class="fas fa-tasks skill-icon"></i>
+              Jira, Azure Boards
+            </li>
+            <li class="skill-item">
+              <i class="fas fa-users skill-icon"></i>
+              SCRUM, Agile
+            </li>
+          </ul>
+        </div>
+
+        <!-- Architecture -->
+        <div class="skill-category">
+          <h3>Architecture & Concepts</h3>
+          <ul class="skill-list">
+            <li class="skill-item">
+              <i class="fas fa-shapes skill-icon"></i>
+              OOP, SOLID Principles
+            </li>
+            <li class="skill-item">
+              <i class="fas fa-network-wired skill-icon"></i>
+              RESTful APIs, JWT Auth
+            </li>
+            <li class="skill-item">
+              <i class="fas fa-sitemap skill-icon"></i>
+              Repository Pattern, CI/CD
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="projects-grid">
+        <!-- Trackk HRMIS -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Trackk HRMIS">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Trackk HRMIS</h3>
+            <p class="project-description">
+              SaaS-based Human Resource Management Information System with modular packages, organizational structure management, 
+              attendance/payroll handling, and workflow automation.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Blazor</span>
+              <span class="tech-tag">.NET Core 8</span>
+              <span class="tech-tag">Entity Framework</span>
+              <span class="tech-tag">SQL Server</span>
+              <span class="tech-tag">PostgreSQL</span>
+              <span class="tech-tag">Microservices</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Invoice Management -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Invoice Management">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Invoice Management System</h3>
+            <p class="project-description">
+              Structured E-Invoicing with Tax Authority Integration. Manages invoices between sellers and buyers with 
+              compliance features and tax authority integration via JSON data exchange.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">ASP.NET Core</span>
+              <span class="tech-tag">Web API</span>
+              <span class="tech-tag">MVC</span>
+              <span class="tech-tag">Entity Framework</span>
+              <span class="tech-tag">SQL Server</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Contact Section -->
+<section id="contact" class="section">
+  <div class="container">
+    <h2 class="section-title">Get In Touch</h2>
+
+    <!-- WhatsApp Quick Contact -->
+    <div style="text-align: center; margin-top: 2rem;">
+      <a href="https://wa.me/923431931200" target="_blank" class="whatsapp-button">
+        <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp" style="vertical-align: middle; margin-right: 8px;">
+        Chat with Me on WhatsApp
+      </a>
+    </div><br>
+
+    <!-- Contact Form -->
+    <div class="contact-form">
+      <form id="contact-form">
+        <div class="form-group">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" id="name" name="name" class="form-control" required />
+        </div>
+
+        <div class="form-group">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" id="email" name="email" class="form-control" required />
+        </div>
+
+        <div class="form-group">
+          <label for="message" class="form-label">Message</label>
+          <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+        </div>
+
+        <div id="form-loading" style="display:none; margin-top:10px;">Sending...</div>
+
+        <button type="submit" id="submit-btn" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <p class="footer-logo">I'm Haider, Contact Me On</p>
+        <div class="social-links">
+          <a href="https://www.github.com/haiderdev862"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/m-arshad-ali-haider/"><i class="fab fa-linkedin"></i></a>
+          <!-- Email Icon -->
+          <a href="mailto:haiderdeveloper862@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+        <p class="copyright">© 2025 .NET Developer Portfolio. All rights reserved.</p><br>
+        <p class="developer">PowerdBy: daudi</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
